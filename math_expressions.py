@@ -7,6 +7,9 @@ num_a =  12
 num_b =  5
 radius = 7489
 side_length = 10
+a = 5
+b = 4
+c = 3
 #1. Sum and difference
 
 sum = num_a + num_b
@@ -38,3 +41,42 @@ print(circle_area)
 
 triangle_area = round(math.sqrt(side_length ** 2 - (side_length / 2 ) ** 2) * side_length / 2)
 print(triangle_area)
+#8. Calculate discriminant
+
+discriminant = b ** 2 - 4 * a * c
+print("discriminant =", discriminant)
+
+#9. Calculate hypotenuse length
+side1 = 7
+side2 = 3
+
+hypotenuse = math.sqrt(side1 * side2)
+print(hypotenuse)
+
+#10. Calculate cathetus length
+
+cathetus = math.sqrt(hypotenuse ** 2 - side1 ** 2)
+print("cathetus =", cathetus)
+
+#11. Time converter
+
+seconds = 149032
+minutes = second // 60
+hours = minutes // 60
+
+print(seconds,minutes,hours)
+
+#12. Student helper
+
+angle = 67
+sine = round(math.sin(angle), 1)
+cosine = round(math.cos(angle), 1)
+print("sine = "), sine, "cosine = ", cosine)
+
+#13. Greetings
+
+n = 12
+lots_of_heys = n * "hey"
+
+#14. Adding numbers
+string_numbers = str(num_a) + str(num_b)
