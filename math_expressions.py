@@ -50,7 +50,7 @@ print("discriminant =", discriminant)
 side1 = 7
 side2 = 3
 
-hypotenuse = math.sqrt(side1 * side2)
+hypotenuse = math.sqrt(side1 **2 + side2 ** 2)
 print(hypotenuse)
 
 #10. Calculate cathetus length
@@ -61,7 +61,7 @@ print("cathetus =", cathetus)
 #11. Time converter
 
 seconds = 149032
-minutes = second // 60
+minutes = seconds // 60
 hours = minutes // 60
 
 print(seconds,minutes,hours)
@@ -71,7 +71,7 @@ print(seconds,minutes,hours)
 angle = 67
 sine = round(math.sin(angle), 1)
 cosine = round(math.cos(angle), 1)
-print("sine = "), sine, "cosine = ", cosine)
+print("sine = ", sine, "cosine = ", cosine)
 
 #13. Greetings
 
