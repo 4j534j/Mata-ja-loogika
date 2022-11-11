@@ -21,3 +21,5 @@ def sum_numbers(a, b):
 # usd_to_eur()
 def usd_to_eur(d):
   return (d * 0.8)
+
+

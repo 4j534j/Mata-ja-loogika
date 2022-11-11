@@ -80,3 +80,6 @@ lots_of_heys = n * "hey"
 
 #14. Adding numbers
 string_numbers = str(num_a) + str(num_b)
+
+
+print(20 % 3)

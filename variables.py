@@ -5,3 +5,5 @@ first_half = "full"
 second_half = "moon"
 complete = first_half +" "+ second_half
 print(complete)
+
+print( "hola" * 3)
