@@ -103,7 +103,9 @@ er the position are shifted
     insert_tuple_inside_tuple((1, 2), 2, (3, 4)) => (1, 2, 3, 4)
     insert_tuple_inside_tuple((1, 2, 3), 1, (1, )) => (1, 1, 2, 3)
     """
-    tupl = range(outer_tuple[position])
-    tupl2 = range(outer_tuple[-position])
-    tupl3 = (tupl) + (inner_tuple) + (tupl2)
-    return tupl3
+
+    return outer_tuple[:position] + inner_tuple + outer_tuple[position:]
+
+
+
+print(insert_tuple_inside_tuple((6, 3, 5), 2, (4, 7, 5)))
